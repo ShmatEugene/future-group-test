@@ -1,0 +1,16 @@
+thead {
+  th {
+    cursor: pointer;
+    position: relative;
+  }
+  .sort_icon {
+    transform: rotate(180deg);
+    margin-left: 8px;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    &.rotated {
+      transform: rotate(0deg);
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.Table {
+  table {
+    tbody {
+      tr {
+        cursor: pointer;
+        &:hover {
+          background: whitesmoke;
+        }
+        &.active {
+          background: whitesmoke;
+        }
+      }
+    }
+  }
+}

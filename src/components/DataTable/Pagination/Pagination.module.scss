@@ -1,0 +1,12 @@
+.item {
+  &.active span {
+    background: #e9ecef;
+  }
+}
+
+span {
+  cursor: pointer;
+  &:disabled {
+    pointer-events: none;
+  }
+}

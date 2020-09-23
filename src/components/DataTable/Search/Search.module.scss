@@ -1,0 +1,13 @@
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  input {
+    width: 220px;
+  }
+  button {
+    margin-left: 20px;
+    &:disabled {
+      pointer-events: none;
+    }
+  }
+}
