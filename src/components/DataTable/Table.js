@@ -50,6 +50,13 @@ export default function Table({ itemsPerPage = 50, link }) {
 
   //Fetch data from server
   React.useEffect(() => {
+    //reset state
+    setSorting({ field: '', order: '' });
+    setCurrentPage(1);
+    setSearch('');
+    setSelectedRow({});
+    setIsAddRowOpen(false);
+
     if (link) {
       setLoading(true);
       axios
